@@ -97,6 +97,7 @@ export default class userview extends React.Component{
                     <div className="card-body"key={persons.uuid}>
                 <h5 className="card-title"key={persons.uuid}><strong>{persons.name}</strong></h5>
                 <p className="price">{persons.email}</p>
+          
                       <div className="text-center">
                       
                         <Link to={Link} to={persons.uuid}><Button

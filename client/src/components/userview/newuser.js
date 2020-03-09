@@ -7,9 +7,7 @@ export class Newuser extends Component {
     constructor(props){
         super(props);
        
-        
     }
-    
     handleSubmit = (e) =>{
       e.preventDefault();
 
@@ -30,10 +28,8 @@ export class Newuser extends Component {
           console.log(err);
       })
     }
-
     render(){
-        return(
-              
+        return( 
             <Modal
             {...this.props}
            
